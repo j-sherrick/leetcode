@@ -2,7 +2,8 @@
   "name": "leetcode",
   "version": "1.0.0",
   "description": "A public archive of my solutions to various LeetCode challenges",
-  "main": "index.js",
+  "type": "module",
+  "main": "",
   "scripts": {
     "longest-common-prefix": "node ./longest-common-prefix/solutions.js",
     "valid-parentheses": "node ./valid-parentheses/solutions.js"

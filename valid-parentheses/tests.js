@@ -1,4 +1,4 @@
-export const cases = [
+export const testCases = [
     "()",               // 0. pass
     "()[]{}",           // 1. pass
     "(]",               // 2. fail
