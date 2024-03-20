@@ -21,12 +21,11 @@ const isValid = (s) => {
                 i--;
             }
             else {
-                console.log('false');
-                return;
+                return false;
             }
         }
     }
-    console.log('true');
+    return (true && s.length > 1);
 };
 
 testCases.forEach(test => {
