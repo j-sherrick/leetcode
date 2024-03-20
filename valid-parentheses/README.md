@@ -30,3 +30,14 @@ Output: false
 * s consists of parentheses only '()[]{}'.
 
 ## Topics
+
+## Solution
+
+I passed the basic test cases but failed the main submission because I failed to account for the edge case where strings only contain opening brackets. This
+was because the function returns false when there is a closing bracket out of place, but returns true in all other cases. This was easily accounted for by including a check for an empty stack along with the return condition.
+
+## What Did I Learn?
+
+- My approach added overhead because I was performing an O(n) search using `indexOf()` with each iteration of the loop.
+- Whereas the `isValidFast()` solution peformed direct comparison to specific characters.
+- Separate `peek` variable was unnecessary
