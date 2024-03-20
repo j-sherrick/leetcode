@@ -1,0 +1,32 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "A public archive of my solutions to various LeetCode challenges",
+  "main": "index.js",
+  "scripts": {
+    "longest-common-prefix": "node ./longest-common-prefix/solutions.js",
+    "valid-parentheses": "node ./valid-parentheses/solutions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-sherrick/leetcode.git"
+  },
+  "keywords": [
+    "leetcode",
+    "algorithms",
+    "challenges",
+    "competitive-programming",
+    "programming",
+    "computer-science",
+    "coding-interview",
+    "javascript",
+    "c-language",
+    "typescript"
+  ],
+  "author": "Jason Sherrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-sherrick/leetcode/issues"
+  },
+  "homepage": "https://github.com/j-sherrick/leetcode#readme"
+}
