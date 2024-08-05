@@ -7,6 +7,8 @@ int lengthOfLongestSubstring(char* s) {
     while ( *right != '\0') {
       if (*left == *right)
       {
+        if (currentLength > lengthOfLongest) lengthOfLongest = currentLength;
+        currentLength -= (right - left);
       }
       
     }
